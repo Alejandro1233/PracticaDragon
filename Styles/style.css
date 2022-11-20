@@ -1,0 +1,71 @@
+body {
+    background-image:url("../Images/tile-sky2.jpg") ;
+    text-align: center;
+  }
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+}
+div{
+    text-align: left;
+}
+.mydiv {
+        overflow: hidden;
+        color: aliceblue;
+        background-color: purple;
+        
+  }
+   a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+main{
+    
+    padding-left: 10% ;
+    padding-right:10% ;
+    width: auto;
+    height: auto;
+}
+.Ala {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+#cuerpo{
+    background-color: rgb(63, 60, 60);
+    font-family: 'San frediano';
+}
+.container{
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(224, 218, 218, 0.514);
+    color: purple;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Dragon fire';
+}
+footer{
+    text-align: center;
+    color: white;
+}
+@font-face {
+    font-family: 'San frediano';
+    src: url(../Fonts/san_frediano_regular.ttf);
+}
+@font-face {
+    font-family: 'Dragon fire';
+    src: url(../Fonts/DragonFire.ttf);
+}
